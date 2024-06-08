@@ -1,5 +1,5 @@
 import React from "react";
-import {IconButton, Grid, Link} from "@mui/joy";
+import { Grid, Link} from "@mui/joy";
 
 const Experience = () => {
     return (
@@ -24,11 +24,7 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>Digi Telecommunications
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
+                        <h4>Digi Telecommunications</h4>
                         <h5 style={{color: 'gray'}}>Associate Software Engineer Intern</h5>
                     </div>
                 </Grid>
@@ -44,12 +40,8 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>MoneyMatch
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
-                        <h5 style={{color: 'gray'}}>Software Engineering Intern</h5>
+                        <h4>MoneyMatch</h4>
+                        <h5 style={{color: 'gray'}}>Software Engineering Intern - Backend</h5>
                     </div>
                 </Grid>
                 <Grid>
@@ -64,11 +56,7 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>Dell Technologies
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
+                        <h4>Dell Technologies</h4>
                         <h5 style={{color: 'gray'}}>Software Engineer 1 - IT Development Programme</h5>
                     </div>
                 </Grid>
@@ -84,11 +72,7 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>FTM Tech Sdn. Bhd.
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
+                        <h4>FTM Tech Sdn. Bhd.</h4>
                         <h5 style={{color: 'gray'}}>Freelance Company.  <i>Using technology to provide solutions.</i></h5>
                     </div>
                 </Grid>

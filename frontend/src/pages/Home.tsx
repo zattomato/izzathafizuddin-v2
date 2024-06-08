@@ -2,8 +2,6 @@ import {Box} from "@mui/joy";
 import IzzatHafizuddin from "../components/IzzatHafizuddin.tsx";
 import AboutMe from "../components/AboutMe.tsx";
 import Experience from "../components/Experience.tsx";
-import Connect from "../components/Connect.tsx";
-import Projects from "../components/Projects.tsx";
 
 export default function Home() {
     return (
@@ -18,10 +16,6 @@ export default function Home() {
                 <br/>
                 <hr style={{ color: 'lightgray'}}/>
                 <br/>
-                {/*<Projects />
-                <br/>
-                <Connect />
-                <br/>*/}
             </Box>
         </div>
 )
