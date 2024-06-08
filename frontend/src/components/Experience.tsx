@@ -1,5 +1,5 @@
 import React from "react";
-import {IconButton, Grid, Link} from "@mui/joy";
+import { Grid, Link } from "@mui/joy";
 
 const Experience = () => {
     return (
@@ -24,11 +24,7 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>Digi Telecommunications
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
+                        <h4>Digi Telecommunications</h4>
                         <h5 style={{color: 'gray'}}>Associate Software Engineer Intern</h5>
                     </div>
                 </Grid>
@@ -44,11 +40,7 @@ const Experience = () => {
             >
                 <Grid>
                     <div>
-                        <h4>MoneyMatch
-                            {/*<IconButton variant="plain" href="#as-link">
-                                <ArrowUpRight color="#000000" size={14}/>
-                            </IconButton>*/}
-                        </h4>
+                        <h4>MoneyMatch</h4>
                         <h5 style={{color: 'gray'}}>Software Engineering Intern</h5>
                     </div>
                 </Grid>
