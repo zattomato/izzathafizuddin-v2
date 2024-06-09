@@ -20,7 +20,7 @@ const FooterBar = () => {
                         >
                             <img
                                 src={logo_cropped}
-                                width="45"
+                                width="35"
                                 className="d-inline-block align-top"
                                 alt="izzathafizuddin logo"
                             />
