@@ -1,5 +1,5 @@
 import React, {ReactNode} from "react";
-import NavigationBar from "./NavigationBar.tsx";
+// import NavigationBar from "./NavigationBar.tsx";
 import FooterBar from "./FooterBar.tsx";
 
 interface LayoutProps {
@@ -9,9 +9,9 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <div>
-            <header style={{ height: '10vh'}}>
-                <NavigationBar />
-            </header>
+            {/*<header style={{ height: '10vh'}}>*/}
+            {/*    <NavigationBar />*/}
+            {/*</header>*/}
             <main style={{ minHeight: '60vh'}}>
                 {children}
             </main>

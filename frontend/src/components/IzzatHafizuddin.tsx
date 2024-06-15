@@ -3,12 +3,13 @@ import Typewriter from 'typewriter-effect';
 const Error = () => {
     return (
         <section id="izzat-hafizuddin">
+            <br/>
             <h1>Izzat Hafizuddin</h1>
             <Typewriter
-                onInit={(typewriter) => {
-                    typewriter.typeString('Full-Stack Software Engineer ')
-                        .pauseFor(150)
-                        .start();
+                options={{
+                    strings: 'Full-Stack Software Engineer ',
+                    autoStart: true,
+                    delay: 20,
                 }}
             />
         </section>

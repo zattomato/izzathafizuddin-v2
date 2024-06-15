@@ -8,8 +8,8 @@ import FTM from "../assets/FTM.jpg"
 const Experience = () => {
     return (
         <React.Fragment>
-            <h3>Experience</h3>
-            <p style={{color: 'gray'}}>More details in my{' '}
+            <h2>Experience</h2>
+            <p style={{color: 'gray'}}>Based in Malaysia. More details in my{' '}
                 <Link
                     href="https://www.linkedin.com/in/izzathafizuddinazmi/"
                     target="_blank"
@@ -110,14 +110,14 @@ const Experience = () => {
                         spacing={1}
                     >
                         <Avatar alt="FTM" src={FTM} size="sm">F</Avatar>
-                        <h4>FTM Tech Sdn. Bhd.</h4>
+                        <h4>FTM Tech</h4>
                     </Stack>
                 </Grid>
                 <Grid xs={6} display="flex" justifyContent="flex-end">
                     <h5 style={{color: 'gray'}}>February 2024 - Present</h5>
                 </Grid>
                 <Grid>
-                    <h5 style={{color: 'gray'}}>Freelance Company. <i>Using technology to provide solutions.</i></h5>
+                    <h5 style={{color: 'gray'}}>Freelance Company.</h5>
                 </Grid>
             </Grid>
         </React.Fragment>
