@@ -117,7 +117,8 @@ const Experience = () => {
                     <h5 style={{color: 'gray'}}>February 2024 - Present</h5>
                 </Grid>
                 <Grid>
-                    <h5 style={{color: 'gray'}}>Freelance Company.</h5>
+                    <h5 style={{color: 'gray'}}>Freelance Software Development Agency. </h5>
+                    <p style={{ color: 'gray', fontSize: 12}}>Interested to work with us? Just send me a DM or e-mail me.</p>
                 </Grid>
             </Grid>
         </React.Fragment>
