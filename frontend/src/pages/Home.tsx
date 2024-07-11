@@ -19,10 +19,10 @@ export default function Home() {
                 <FadeIn delay={1100} transitionDuration={1200}>
                     <Experience/>
                 </FadeIn>
-                <br/>
-                <br/>
-                <hr style={{color: 'lightgray'}}/>
-                <br/>
+                <FadeIn delay={1300} transitionDuration={1200}>
+                    <hr style={{color: 'lightgray'}}/>
+                    <br/>
+                </FadeIn>
             </Box>
         </div>
     )
