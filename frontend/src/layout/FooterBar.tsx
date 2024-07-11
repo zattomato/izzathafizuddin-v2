@@ -9,7 +9,7 @@ const FooterBar = () => {
                 direction="row"
                 justifyContent="space-between"
                 alignItems="flex-start"
-                sx={{width: '80%', maxWidth: 600}}
+                sx={{width: '80%', maxWidth: 600, marginBottom: 10}}
             >
                 <Stack>
                     <Box sx={{marginRight: 2}}>
@@ -20,7 +20,7 @@ const FooterBar = () => {
                         >
                             <img
                                 src={logo_cropped}
-                                width="45"
+                                width="35"
                                 className="d-inline-block align-top"
                                 alt="izzathafizuddin logo"
                             />
@@ -31,7 +31,7 @@ const FooterBar = () => {
                     </Box>
                 </Stack>
                 <Stack>
-                <Box sx={{marginRight: 2}}>
+                    <Box sx={{marginRight: 2}}>
                         <Link
                             href="https://www.linkedin.com/in/izzathafizuddinazmi/"
                             target="_blank"
@@ -40,6 +40,17 @@ const FooterBar = () => {
                             sx={{color: 'inherit', textDecoration: 'none', fontFamily: 'inherit', fontSize: 'inherit'}}
                         >
                             <p>LinkedIn</p>
+                        </Link>
+                    </Box>
+                    <Box sx={{marginRight: 2}}>
+                        <Link
+                            href="https://www.instagram.com/izzathafzuddin/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            underline="none"
+                            sx={{color: 'inherit', textDecoration: 'none', fontFamily: 'inherit', fontSize: 'inherit'}}
+                        >
+                            <p>Instagram</p>
                         </Link>
                     </Box>
                     <Box sx={{marginRight: 2}}>

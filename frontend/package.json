@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,11 +14,14 @@
     "@emotion/styled": "^11.11.5",
     "@fontsource-variable/manrope": "^5.0.20",
     "@mui/joy": "^5.0.0-beta.36",
+    "firebase-tools": "^13.11.2",
     "lucide-react": "^0.390.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fade-in": "^2.0.1",
     "react-router-dom": "^6.23.1",
-    "react-spring": "^9.7.3"
+    "react-spring": "^9.7.3",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

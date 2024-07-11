@@ -1,8 +1,17 @@
+import Typewriter from 'typewriter-effect';
+
 const Error = () => {
     return (
         <section id="izzat-hafizuddin">
+            <br/>
             <h1>Izzat Hafizuddin</h1>
-            <p>Full-Stack Software Engineer</p>
+            <Typewriter
+                options={{
+                    strings: 'Full-Stack Software Engineer ',
+                    autoStart: true,
+                    delay: 20,
+                }}
+            />
         </section>
     )
 }
