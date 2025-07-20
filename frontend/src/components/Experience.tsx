@@ -109,17 +109,31 @@ const Experience = () => {
                         alignItems="center"
                         spacing={1}
                     >
-                        <Avatar alt="FTM" src={FTM} size="sm">F</Avatar>
-                        <h4>FTM Tech</h4>
+                        <Avatar alt="FTM" src={FTM} size="md">F</Avatar>
+                        <Stack justifyContent="flex-start" spacing={0.5}>
+                            <h4 style={{ margin: 0 }}>FTM Tech</h4>
+                            <p style={{ color: 'gray', fontSize: 10, fontStyle: 'italic', margin: 0 }}>
+                                202403185991 (003624216-H)
+                            </p>
+                        </Stack>
                     </Stack>
                 </Grid>
                 <Grid xs={6} display="flex" justifyContent="flex-end">
                     <h5 style={{color: 'gray'}}>February 2024 - Present</h5>
                 </Grid>
-                <Grid>
-                    <h5 style={{color: 'gray'}}>Freelance Software Development Agency. </h5>
-                    <p style={{ color: 'gray', fontSize: 12}}>Interested to work with us? Just send me a DM or e-mail me.</p>
+                <Grid xs={12}>
+                    <h5 style={{ color: 'gray', marginBottom: 4 }}>Co-Founder & Software Engineer</h5>
+                    <p style={{ color: 'gray', fontSize: 12, marginTop: 0 }}>
+                        Interested to work with us? Just e-mail me at{' '}
+                        <a
+                            href="mailto:izzathafizuddin@ftmtech.com.my"
+                            style={{ color: '#616161', textDecoration: 'none' }}
+                        >
+                            izzathafizuddin@ftmtech.com.my
+                        </a>
+                    </p>
                 </Grid>
+
             </Grid>
         </React.Fragment>
 
