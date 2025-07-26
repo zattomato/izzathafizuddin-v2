@@ -10,7 +10,7 @@ const AboutMe = () => {
                 This sparked an interest in technology and that passion has won numerous awards in innovation competitions across Asia in the field of IoT and electronics.
             </p>
             <p style={{color: 'gray'}}>
-                And when I'm not being a nerd, I like to travel and enjoy sceneries!
+                And when I'm not being a nerd, I like to travel!
             </p>
         </React.Fragment>
 
