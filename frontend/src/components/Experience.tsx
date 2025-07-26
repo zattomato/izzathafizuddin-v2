@@ -64,6 +64,7 @@ const Experience = () => {
                     LinkedIn.
                 </Link>
             </p>
+            <br/>
 
             {experiences.map((exp, idx) => (
                 <Grid
@@ -72,7 +73,7 @@ const Experience = () => {
                     direction="row"
                     justifyContent="space-between"
                     alignItems="center"
-                    sx={{ marginBottom: 5 }}
+                    sx={{ marginBottom: 3 }}
                 >
                     <Grid xs={12} sm={6}>
                         <a
