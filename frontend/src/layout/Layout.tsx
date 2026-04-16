@@ -1,7 +1,7 @@
 import React, {ReactNode} from "react";
 // import NavigationBar from "./NavigationBar.tsx";
 import FooterBar from "./FooterBar.tsx";
-import FadeIn from "react-fade-in";
+import FadeIn from "../components/FadeIn.tsx";
 
 
 interface LayoutProps {
@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 {children}
             </main>
             <footer style={{ minHeight: '5vh'}}>
-                <FadeIn delay={1500} transitionDuration={1200}> 
+                <FadeIn delay={1800} transitionDuration={2000}> 
                     <FooterBar />
                 </FadeIn>
             </footer>

@@ -2,7 +2,7 @@ import {Box} from "@mui/joy";
 import IzzatHafizuddin from "../components/IzzatHafizuddin.tsx";
 import AboutMe from "../components/AboutMe.tsx";
 import Experience from "../components/Experience.tsx";
-import FadeIn from "react-fade-in";
+import FadeIn from "../components/FadeIn.tsx";
 
 export default function Home() {
     return (
@@ -16,10 +16,10 @@ export default function Home() {
                     <AboutMe/>
                 </FadeIn>
                 <br/>
-                <FadeIn delay={1100} transitionDuration={1200}>
+                <FadeIn delay={1500} transitionDuration={1800}>
                     <Experience/>
                 </FadeIn>
-                <FadeIn delay={1300} transitionDuration={1200}>
+                <FadeIn delay={1700} transitionDuration={2000}>
                     <hr style={{color: 'lightgray'}}/>
                     <br/>
                 </FadeIn>
