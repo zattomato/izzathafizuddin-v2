@@ -2,6 +2,7 @@ import {Box} from "@mui/joy";
 import IzzatHafizuddin from "../components/IzzatHafizuddin.tsx";
 import AboutMe from "../components/AboutMe.tsx";
 import Experience from "../components/Experience.tsx";
+import Competitions from "../components/Competitions.tsx";
 import FadeIn from "../components/FadeIn.tsx";
 
 export default function Home() {
@@ -18,6 +19,10 @@ export default function Home() {
                 <br/>
                 <FadeIn delay={1500} transitionDuration={1800}>
                     <Experience/>
+                </FadeIn>
+                <br/>
+                <FadeIn delay={1600} transitionDuration={1900}>
+                    <Competitions/>
                 </FadeIn>
                 <FadeIn delay={1700} transitionDuration={2000}>
                     <hr style={{color: 'lightgray'}}/>
