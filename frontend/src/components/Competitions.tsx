@@ -40,32 +40,24 @@ const Competitions = () => {
         <br />
 
         {competitions.map((comp, idx) => (
-            <Grid
-                key={idx}
-                container
-                direction="row"
-                justifyContent="space-between"
-                alignItems="center"
-                sx={{ marginBottom: 3 }}
-            >
-              <Grid xs={12} sm={6}>
+            <Grid key={idx} container sx={{ marginBottom: 3 }}>
+              <Grid xs={12}>
                 <h4 style={{ margin: 0 }}>{comp.project}</h4>
-              </Grid>
-              <Grid
-                  xs={12}
-                  sm={6}
-                  display="flex"
-                  justifyContent="flex-start"
-                  alignItems="center"
-              >
-                <h5 style={{ color: "gray", textAlign: "left", margin: 0 }}>
+                <p
+                    style={{
+                      color: "gray",
+                      fontSize: 10,
+                      fontStyle: "italic",
+                      margin: 0,
+                    }}
+                >
                   {comp.achievement.map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
                         {i < comp.achievement.length - 1 && <br />}
                       </React.Fragment>
                   ))}
-                </h5>
+                </p>
               </Grid>
               <Grid xs={12}>
                 <p style={{ color: "gray", fontSize: 12, marginTop: 2 }}>
