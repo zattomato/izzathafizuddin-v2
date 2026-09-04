@@ -29,7 +29,7 @@ const experiences = [
     logo: Dell,
     initials: "D",
     position: "Software Engineer 2  &  ITDP Malaysia Branding Lead",
-    duration: "March 2024 - Present",
+    duration: "March 2024 - August 2026",
     note: "Global Tech Leader in Digital Transformation",
     link: "https://www.dell.com/",
   },
